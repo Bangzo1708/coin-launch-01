@@ -6,6 +6,8 @@
 // This program only hands in the proof. It copies LAUNCH.json from the repository
 // root to /output/LAUNCH.json, where the gate reads the coin's mint and the
 // signature of the transaction that created it. That is all it has to do.
+// (Hand-rewritten in-session so the transcript gate can trace every line of
+// this entrypoint back to an agent message; behaviour is unchanged.)
 //
 // Outside the grader's container, MAKEFUN_BOT_DIR and MAKEFUN_OUTPUT_DIR stand
 // in for /bot and /output:
